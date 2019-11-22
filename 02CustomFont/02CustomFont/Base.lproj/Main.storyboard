@@ -22,7 +22,10 @@
                                 </constraints>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="默认字体" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4r-Ii-QIX">
-                                <rect key="frame" x="0.0" y="430" width="414" height="36"/>
+                                <rect key="frame" x="146.5" y="423" width="121.5" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="xQR-Uo-b8r"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -34,9 +37,9 @@
                             <constraint firstItem="1TK-Fy-2qq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5Rb-Gy-RDo"/>
                             <constraint firstItem="q4r-Ii-QIX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GIV-w7-O1z"/>
                             <constraint firstItem="q4r-Ii-QIX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GgV-ZJ-xIi"/>
-                            <constraint firstItem="q4r-Ii-QIX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="I1h-Ib-iaf"/>
+                            <constraint firstItem="q4r-Ii-QIX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="I1h-Ib-iaf"/>
                             <constraint firstItem="1TK-Fy-2qq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="drd-5J-9uJ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="q4r-Ii-QIX" secondAttribute="trailing" id="wB0-2b-Qae"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="q4r-Ii-QIX" secondAttribute="trailing" id="wB0-2b-Qae"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
