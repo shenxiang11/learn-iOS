@@ -27,7 +27,6 @@ class ViewController: UIViewController {
     private var count: Double = 0 {
         didSet {
             let totalMS = Int(count * 1000)
-            print(totalMS)
             let ms = totalMS % 1000
             let s = Int(totalMS / 1000) % 60
             let m = Int(totalMS / 1000 / 60) % 60
@@ -37,6 +36,10 @@ class ViewController: UIViewController {
             labelS.text = String(format: "%02d", s)
             labelMS.text = String(format: "%03d", ms)
         }
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
     
     override func viewDidLoad() {
