@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_2CustomFont" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1TK-Fy-2qq">
+                                <rect key="frame" x="0.0" y="646" width="414" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="37e-lO-GWK"/>
+                                </constraints>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="默认字体" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4r-Ii-QIX">
+                                <rect key="frame" x="0.0" y="430" width="414" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1TK-Fy-2qq" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5Q9-Ge-q0c"/>
+                            <constraint firstItem="1TK-Fy-2qq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5Rb-Gy-RDo"/>
+                            <constraint firstItem="q4r-Ii-QIX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GIV-w7-O1z"/>
+                            <constraint firstItem="q4r-Ii-QIX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GgV-ZJ-xIi"/>
+                            <constraint firstItem="q4r-Ii-QIX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="I1h-Ib-iaf"/>
+                            <constraint firstItem="1TK-Fy-2qq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="drd-5J-9uJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="q4r-Ii-QIX" secondAttribute="trailing" id="wB0-2b-Qae"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="fontPicker" destination="1TK-Fy-2qq" id="Szi-Xd-czr"/>
+                        <outlet property="textLabel" destination="q4r-Ii-QIX" id="BHD-ty-JBX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="113"/>
+        </scene>
+    </scenes>
+</document>
