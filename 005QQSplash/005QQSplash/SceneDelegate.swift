@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  005InstragramSplash
+//  005QQSplash
 //
 //  Created by 沈翔 on 2019/11/26.
 //  Copyright © 2019 沈翔. All rights reserved.
@@ -14,10 +14,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        window?.backgroundColor = UIColor(named: "Primary")!
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

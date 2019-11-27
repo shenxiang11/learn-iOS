@@ -16,11 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="white_ins" translatesAutoresizingMaskIntoConstraints="NO" id="4Jz-xe-OUi">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qq" translatesAutoresizingMaskIntoConstraints="NO" id="4Jz-xe-OUi">
                                 <rect key="frame" x="79" y="320" width="256" height="256"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" name="Pink"/>
+                        <color key="backgroundColor" name="Primary"/>
                         <constraints>
                             <constraint firstItem="4Jz-xe-OUi" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="MQL-qW-jXY"/>
                             <constraint firstItem="4Jz-xe-OUi" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zk6-lN-sOz"/>
@@ -34,9 +34,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="white_ins" width="128" height="128"/>
-        <namedColor name="Pink">
-            <color red="0.96470588235294119" green="0.69411764705882351" blue="0.69019607843137254" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="qq" width="128" height="128"/>
+        <namedColor name="Primary">
+            <color red="0.070588235294117646" green="0.59215686274509804" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
