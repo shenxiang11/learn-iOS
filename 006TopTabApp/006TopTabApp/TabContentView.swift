@@ -72,11 +72,7 @@ extension TabContentView: UICollectionViewDelegate {
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         startOffsetX = scrollView.contentOffset.x
     }
-    
-    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
-        delegate?.tabContentView(self, progress: progress, sourceIndex: sourceIndex, targetIndex: targetIndex)
-    }
-    
+        
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let currentOffsetX = scrollView.contentOffset.x
         let scrollViewWidth = scrollView.bounds.width
@@ -104,6 +100,8 @@ extension TabContentView: UICollectionViewDelegate {
                 sourceIndex = childVCs.count - 1
             }
         }
+        print(progress)
+        delegate?.tabContentView(self, progress: progress, sourceIndex: sourceIndex, targetIndex: targetIndex)
     }
 }
 

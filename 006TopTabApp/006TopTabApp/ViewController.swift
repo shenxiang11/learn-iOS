@@ -68,7 +68,6 @@ extension ViewController: TabTitleViewDelegate {
 
 extension ViewController: TabContentViewDelegate {
     func tabContentView(_ tabContentView: TabContentView, progress: CGFloat, sourceIndex: Int, targetIndex: Int) {
-        print(progress, sourceIndex, targetIndex)
         tabTitle.setActivedLabel(sourceIndex: sourceIndex, targetIndex: targetIndex)
     }
 }
