@@ -1,0 +1,6 @@
+framework module Pods_008Speech {
+  umbrella header "Pods-008Speech-umbrella.h"
+
+  export *
+  module * { export * }
+}
